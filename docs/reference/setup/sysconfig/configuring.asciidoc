@@ -99,6 +99,7 @@ such as:
 ---------------------------------
 [Service]
 LimitMEMLOCK=infinity
+LimitNOFILE=65536
 ---------------------------------
 
 Once finished, run the following command to reload units:
